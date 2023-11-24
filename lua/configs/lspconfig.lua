@@ -70,6 +70,14 @@ local servers = {
       telemetry = { enable = false },
     },
   },
+  texlab = {
+    texlab = {
+      build = {
+        args = { "-pdflua", "-interaction=nonstopmode", "-synctex=1", "%f" },
+        onSave = true
+      }
+    }
+  }
 }
 
 -- Setup neovim lua configuration
