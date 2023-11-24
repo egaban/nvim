@@ -4,5 +4,6 @@
 -- See the kickstart.nvim README for more information
 return {
   require("plugins.autopairs"),
+  require("plugins.copilot"),
   require("plugins.oil"),
 }
