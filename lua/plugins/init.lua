@@ -5,5 +5,6 @@
 return {
   require("plugins.autopairs"),
   require("plugins.copilot"),
+  require("plugins.harpoon"),
   require("plugins.oil"),
 }
