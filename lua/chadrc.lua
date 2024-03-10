@@ -1,7 +1,10 @@
 local M = {}
 
 M.ui = {
-  theme = "onedark",
+  theme = "rosepine",
+  tabufline = {
+    enabled = false
+  }
 }
 
 return M
