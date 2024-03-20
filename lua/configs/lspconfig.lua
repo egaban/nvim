@@ -26,6 +26,6 @@ for server in pairs(servers) do
 		on_init = on_init,
 		on_attach = on_attach,
 		capabilities = capabilities,
-		options = servers[server],
+		settings = servers[server],
 	})
 end
