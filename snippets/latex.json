@@ -1,0 +1,7 @@
+{
+  "im": {
+    "prefix": "im",
+    "body": "\\($0\\)",
+    "description": "Inline math mode" 
+  }
+}
