@@ -12,3 +12,9 @@ map("i", "jk", "<ESC>", { desc = "Escape insert mode" })
 
 -- Navigation
 map("n", "-", "<CMD>Oil<CR>")
+
+-- Leap
+map({ "n", "x", "o" }, "s", "<Plug>(leap-forward)")
+map({ "n", "x", "o" }, "S", "<Plug>(leap-backward)")
+
+vim.keymap.del('n', '<tab>')
