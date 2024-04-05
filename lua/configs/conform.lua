@@ -1,10 +1,11 @@
 local options = {
-	lsp_fallback = true,
+	lsp_fallback = false,
 
 	formatters_by_ft = {
 		lua = { "stylua" },
 
 		rust = { "rustfmt" },
+		tex = { "latexindent" },
 	},
 }
 
