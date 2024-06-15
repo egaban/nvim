@@ -6,6 +6,10 @@ local options = {
 
 		rust = { "rustfmt" },
 		tex = { "latexindent" },
+		cpp = { "clang-format" },
+	},
+	format_after_save = {
+		lsp_fallback = true,
 	},
 }
 
