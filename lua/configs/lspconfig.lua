@@ -19,6 +19,7 @@ local servers = {
 	html = {},
 	rust_analyzer = {},
 	pyright = {},
+	clangd = {},
 }
 
 for server in pairs(servers) do
