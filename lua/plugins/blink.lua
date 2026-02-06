@@ -1,5 +1,6 @@
 return {
 	"saghen/blink.cmp",
+	version = "v1.*",
 	opts = {
 		sources = {
 			-- add lazydev to your completion providers
