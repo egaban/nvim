@@ -1,14 +1,11 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	version = "v0.*",
-	lazy = false,
+	event = { "BufReadPre", "BufNewFile" },
+	cmd = { "TSUpdate", "TSInstall" },
 	build = ":TSUpdate",
-	opts = {
-		highlight = {
-			enable = true,
-		},
-		indent = {
-			enable = true,
-		},
-	},
+	opts = {},
+	config = function()
+		require("config.treesitter")
+	end,
 }
