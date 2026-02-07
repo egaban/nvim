@@ -4,6 +4,6 @@ return {
 	dependencies = { "nyoom-engineering/oxocarbon.nvim", "shaunsingh/nord.nvim" },
 	lazy = false,
 	config = function()
-		vim.cmd("colorscheme rose-pine")
+		vim.cmd("colorscheme nord")
 	end,
 }
