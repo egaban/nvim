@@ -10,3 +10,5 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.lsp.enable("lua_ls")
 	end,
 })
+
+vim.lsp.enable({ "basedpyright" })
