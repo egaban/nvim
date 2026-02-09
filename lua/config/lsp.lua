@@ -11,4 +11,4 @@ vim.api.nvim_create_autocmd("FileType", {
 	end,
 })
 
-vim.lsp.enable({ "basedpyright", "clangd" })
+vim.lsp.enable({ "basedpyright", "clangd", "julials" })
